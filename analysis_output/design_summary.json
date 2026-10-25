@@ -1,0 +1,555 @@
+{
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "num_blocks": 6,
+      "num_images": 1,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 3
+        },
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 3
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 2
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 25.0,
+          "count": 1
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "count": 8
+        },
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "num_blocks": 8,
+      "num_images": 1,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 6
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 3
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 1
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 24.0,
+          "count": 1
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "count": 4
+        },
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 3
+        },
+        {
+          "rgb": [
+            34,
+            34,
+            34
+          ],
+          "count": 3
+        },
+        {
+          "rgb": [
+            184,
+            144,
+            84
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "num_blocks": 9,
+      "num_images": 1,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 11
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 3
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 1
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 24.0,
+          "count": 1
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "count": 10
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "count": 3
+        },
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            184,
+            144,
+            84
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "num_blocks": 9,
+      "num_images": 1,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 5
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 3
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 2
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 60.0,
+          "count": 2
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "count": 7
+        },
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 3
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "num_blocks": 9,
+      "num_images": 0,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 9
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 3
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 35.0,
+          "count": 3
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 70.0,
+          "count": 3
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 2
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "count": 15
+        },
+        {
+          "rgb": [
+            165,
+            125,
+            65
+          ],
+          "count": 3
+        },
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "num_blocks": 10,
+      "num_images": 1,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 3
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 3
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 12.8,
+          "count": 3
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 2
+        },
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 21.4,
+          "count": 2
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 50.0,
+          "count": 1
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "count": 6
+        },
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 5
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "num_blocks": 14,
+      "num_images": 0,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 17.0,
+          "count": 9
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 3
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 28.0,
+          "count": 3
+        },
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 2
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 1
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "count": 12
+        },
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 4
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "num_blocks": 8,
+      "num_images": 3,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 3
+        },
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 2
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 1
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 35.0,
+          "count": 1
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 4
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            165,
+            125,
+            65
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "num_blocks": 8,
+      "num_images": 1,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 6
+        },
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 3
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 60.0,
+          "count": 3
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 2
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "count": 6
+        },
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 5
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "num_blocks": 4,
+      "num_images": 1,
+      "top_fonts": [
+        {
+          "font": "BricolageGrotesque-Bold",
+          "size": 20.0,
+          "count": 2
+        },
+        {
+          "font": "Anton-Regular",
+          "size": 75.5,
+          "count": 2
+        },
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 18.0,
+          "count": 2
+        },
+        {
+          "font": "BricolageGrotesque-Regul",
+          "size": 20.0,
+          "count": 1
+        }
+      ],
+      "top_colors_rgb": [
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "count": 5
+        },
+        {
+          "rgb": [
+            58,
+            85,
+            55
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

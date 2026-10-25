@@ -1,0 +1,98 @@
+===== PAGE 1 =====
+​Suranjana Ghosh​
+​Senior Frontend Engineer specializing in React,​
+​TypeScript & Micro-Frontend Architecture​
+​Bengaluru, India | Born 23/12/1997 | +91 7980883574​
+​suranjanaghosh2312@gmail.com​​|​​LinkedIn​​|​​Github​
+​I can provide my own visa/work permit for Germany​
+​within 5-8 weeks. I am serving my notice period.​
+​TECHNICAL SKILLS​
+​Senior​ ​Frontend​ ​Engineer​ ​(5+​ ​years​ ​of​ ​project​ ​experience);​ ​Frontend:​ ​TypeScript/​ ​JavaScript​ ​|​
+​React.js​ ​|​ ​HTML5​ ​|​ ​CSS3​ ​|​ ​Material​ ​UI​ ​|​ ​Bootstrap​ ​|​ ​React​ ​i18next;​ ​Architecture​ ​&​ ​Design:​
+​Micro-Frontends​ ​|​ ​Module​ ​Federation​ ​|​ ​Nx​ ​|​ ​Monorepo​ ​|​ ​Atomic​ ​Design​ ​|​ ​Design​ ​Systems​ ​|​
+​Storybook​ ​|​​Reusable​​Components;​​State​​&​​APIs:​​Redux​​|​​TanStack​​Query​​|​​REST​​APIs​​|​​Axios​​|​
+​GraphQL​​|​​Node.js​​|​​Express.js;​​Testing​​&​​Quality:​​Jest​​|​​React​​Testing​​Library​​|​​Playwright​​|​​Cypress​
+​|​​ESLint​​|​​SonarQube;​​Build,​​Cloud​​&​​DevOps:​​Vite​​|​​Webpack​​|​​Docker​​|​​Azure​​|​​AWS​​|​​Azure​​DevOps​
+​|​ ​CI/CD​ ​|​ ​Git;​ ​Security​ ​&​ ​Accessibility:​ ​MSAL​ ​|​ ​OAuth​ ​|​ ​RBAC​ ​|​ ​WCAG​ ​2.1/2.2​ ​|​ ​ARIA;​ ​AI​ ​&​
+​Automation:​ ​GitHub​ ​Copilot​ ​|​ ​GitHub​ ​Copilot​ ​CLI​ ​|​ ​Claude​ ​AI​ ​|​ ​Custom​ ​AI​ ​Agents​ ​|​ ​n8n;​ ​UX​ ​&​
+​Performance:​ ​Figma​ ​|​ ​Responsive​ ​Web​ ​Design​ ​|​ ​Lazy​ ​Loading​ ​|​ ​Frontend​ ​Performance​
+​Optimization;​​Leadership:​​Team Leadership | Mentoring​​| Agile/Scrum​
+​WORK EXPERIENCE​
+​03/2024 – today​
+​Senior Frontend Engineer​
+​Clinisys, Bangalore, India​
+​Project:​ ​Clinisys​ ​Laboratory​ ​System​ ​(CLS)​ ​-​ ​Laboratory​ ​management​
+​software used by 3,000+ organizations across 42 countries.​
+​●​ ​Lead​​frontend​​architecture​​and​​a​​5-member​​engineering​​team​​across​
+​a​ ​19-app​ ​Nx​ ​micro-frontend​ ​platform,​ ​delivering​ ​React/TypeScript​
+​solutions across 5 core product areas.​
+​●​ ​Standardize​ ​micro-frontend​ ​architecture​ ​and​ ​shared​ ​UI​ ​patterns,​
+​reducing​​code​​duplication​​and​​improving​​application​​performance​​by​
+​20%.​
+​●​ ​Build​ ​independently​ ​deployable​ ​modules​ ​with​ ​Module​ ​Federation,​
+​TanStack​​Query,​​Node.js,​​Atomic​​Design​​and​​reusable​​design-system​
+​components.​
+​●​ ​Implement​ ​MSAL/OAuth​ ​security​ ​and​ ​React​ ​i18next​ ​localization​
+​supporting​ ​3​ ​global​ ​regions​ ​and​ ​4​ ​languages,​ ​alongside​ ​WCAG​
+​2.1/2.2 accessibility.​
+​●​ ​Automate​ ​development,​​testing​​and​​PR​​reviews​​with​​GitHub​​Copilot​
+​CLI,​ ​Claude​ ​AI,​ ​custom​ ​AI​ ​agents​ ​and​ ​n8n,​ ​supported​ ​by​ ​Azure​
+​DevOps CI/CD and containerized workflows.​
+​Technologies​ ​used:​ ​React.js​ ​|​ ​TypeScript​​|​​Node.js​​|​​Micro-Frontends​​|​
+​Module​​Federation​​|​​Nx​​|​​TanStack​​Query​​|​​Material​​UI​​|​​Atomic​​Design​​|​
+​Storybook​​|​​React​​i18next​​|​​MSAL​​|​​OAuth​​|​​WCAG​​2.1/2.2​​|​​Jest​​|​​React​
+​Testing​​Library​​|​​Docker​​|​​Vite​​|​​Webpack​​|​​Azure​​|​​Azure​​DevOps​​|​​CI/CD​​|​
+​Git | GitHub Copilot CLI | Claude AI | Custom AI Agents | n8n​
+​03/2023 – 02/2024​
+​Frontend Engineer​
+​Promantia, Bangalore, India​
+​Project:​ ​Decathlon​ ​India​ ​Retail​ ​Applications​ ​-​ ​Retail​ ​applications​
+​supporting 129 stores and approximately $480M in annual sales.​
+​1​​of​​2​
+
+===== PAGE 2 =====
+​●​ ​Delivered​ ​2​ ​business-critical​ ​retail​ ​applications​ ​with​ ​React​ ​18,​
+​TypeScript,​​Node.js​​and​​Express.js​​for​​returns,​​refunds​​and​​employee​
+​discounts.​
+​●​ ​Reduced​​rendering​​time​​by​​30%​​through​​lazy​​loading,​​component-tree​
+​optimization and frontend performance improvements.​
+​●​ ​Built​​Express​​REST​​APIs​​and​​restructured​​Redux​​state​​management,​
+​improving frontend data-fetching efficiency by 20%.​
+​●​ ​Partnered​ ​with​ ​UI/UX​ ​designers​ ​and​ ​business​ ​analysts​ ​to​ ​validate​
+​Figma​​designs,​​translate​​business​​workflows​​into​​technical​​solutions​
+​and define backend API contracts.​
+​●​ ​Accelerated​​development​​and​​quality​​checks​​with​​Claude​​AI,​​GitHub​
+​Copilot, n8n, Jest, React Testing Library, Cypress and SonarQube.​
+​Technologies​​used:​​React​​18​​|​​TypeScript​​|​​JavaScript​​|​​Redux​​|​​Node.js​​|​
+​Express.js​​|​​REST​​APIs​​|​​GraphQL​​|​​Atomic​​Design​​|​​Material​​UI​​|​​Jest​​|​
+​React​ ​Testing​ ​Library​ ​|​ ​Cypress​ ​|​ ​Docker​ ​|​ ​Vite​ ​|​ ​SonarQube​ ​|​ ​GitHub​
+​Copilot | Claude AI | n8n | Figma​
+​04/2021 – 11/2022​
+​Software Engineer​
+​iMerit, Kolkata, India​
+​Project:​ ​GULP​ ​-​ ​AI​ ​data​ ​annotation​ ​platform​ ​supporting​ ​5,500+​
+​employees across 60+ countries.​
+​●​ ​Led​​frontend​​development​​of​​GULP,​​building​​React.js​​interfaces​​and​
+​annotation tools for enterprise AI/ML data workflows.​
+​●​ ​Built​ ​reusable​ ​React​ ​components​ ​and​ ​integrated​ ​REST​ ​APIs​ ​with​
+​Axios for high-volume annotation processes.​
+​●​ ​Modernized​
+​legacy​
+​jQuery​
+​functionality​ ​into​ ​React,​ ​reducing​
+​duplication and improving maintainability.​
+​●​ ​Resolved​ ​production​ ​issues​ ​affecting​ ​large​ ​datasets​ ​and​ ​daily​
+​annotation workflows, improving application stability.​
+​●​ ​Mentored​​2​​new​​developers​​through​​technical​​troubleshooting,​​code​
+​reviews and frontend development best practices.​
+​Technologies​​used:​​React.js​​|​​JavaScript​​|​​Axios​​|​​REST​​APIs​​|​​Bootstrap​​|​
+​jQuery | HTML5 | CSS3 | Git | Agile​
+​EDUCATION​
+​04/2015 – 07/2020​
+​BSc, Mathematics, Physics and Chemistry​
+​University of Calcutta​
+​LANGUAGE SKILLS​
+​English (C2) | Bengali (Mother tongue) | German (A1, currently learning)​
+​HOBBIES​
+​Painting | Traveling | Social Work​
+​2​​of​​2​

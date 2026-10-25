@@ -1,0 +1,128 @@
+[Page 1] FRONT-END DEVELOPER
+[Page 1] PORTFOLIO
+[Page 1] Adam Fletcher
+[Page 1] PAGE
+[Page 1] 1
+[Page 1] Building responsive, user-focused digital experiences through modern
+[Page 1] web technologies, clean interfaces, and performance-driven
+[Page 1] development practices.
+[Page 1] hello@reallygreatsite.com
+[Page 2] ABOUT ME
+[Page 2] Passionate about transforming creative concepts into
+[Page 2] interactive digital products while balancing usability,
+[Page 2] performance, accessibility, and visual consistency.
+[Page 2] PAGE
+[Page 2] 2
+[Page 2] hello@reallygreatsite.com
+[Page 2] Professional Summary
+[Page 2] Specialized in responsive website development.
+[Page 2] Experienced with modern JavaScript frameworks.
+[Page 2] Strong collaboration with designers and back-end teams.
+[Page 3] PAGE
+[Page 3] 3
+[Page 3] hello@reallygreatsite.com
+[Page 3] TECHNICAL SKILLS
+[Page 3] A combination of front-end technologies, development
+[Page 3] tools, and best practices used to build scalable and
+[Page 3] maintainable web applications.
+[Page 3] Professional Summary
+[Page 3] Front-End Development
+[Page 3] 95%
+[Page 3] UI Implementation
+[Page 3] 88%
+[Page 3] Responsive Design
+[Page 3] 85%
+[Page 3] Performance Optimization
+[Page 3] 80%
+[Page 4] PAGE
+[Page 4] 4
+[Page 4] E-COMMERCE
+[Page 4] PLATFORM REDESIGN
+[Page 4] A complete front-end redesign focused on improving customer
+[Page 4] experience, mobile usability, and overall website performance.
+[Page 4] hello@reallygreatsite.com
+[Page 4] +28%
+[Page 4] Increased mobile conversion rate
+[Page 4] +35%
+[Page 4] Improved page load speed
+[Page 4] Delivered fully responsive user interface.
+[Page 5] PAGE
+[Page 5] 5
+[Page 5] hello@reallygreatsite.com
+[Page 5] DEVELOPMENT
+[Page 5] WORKFLOW
+[Page 5] A structured approach that ensures projects are
+[Page 5] delivered efficiently while maintaining quality,
+[Page 5] consistency, and user satisfaction.
+[Page 5] Research & Planning
+[Page 5] 01
+[Page 5] Defining architecture, analyzing target audiences, and mapping
+[Page 5] technical requirements.
+[Page 5] UI Implementation
+[Page 5] 02
+[Page 5] Translating design specs into functional components using
+[Page 5] clean, responsive code structures.
+[Page 5] Testing & Optimization
+[Page 5] 03
+[Page 5] Rigorous debugging, cross-browser audits, and deep
+[Page 5] performance fine-tuning.
+[Page 6] PERFORMANCE
+[Page 6] METRIC
+[Page 6] Measured results demonstrate the effectiveness
+[Page 6] of development decisions and their impact on
+[Page 6] user experience and business goals.
+[Page 6] PAGE
+[Page 6] 6
+[Page 6] hello@reallygreatsite.com
+[Page 6] 96%
+[Page 6] UI Score
+[Page 6] 94%
+[Page 6] Accessibility
+[Page 6] Performance Improvement
+[Page 6] +42%
+[Page 7] TECHNOLOGY STACK
+[Page 7] A carefully selected combination of development tools, design systems, and
+[Page 7] technical solutions used to build modern digital products efficiently.
+[Page 7] PAGE
+[Page 7] 7
+[Page 7] hello@reallygreatsite.com
+[Page 7] Front-End Development
+[Page 7] Responsive interfaces built with modern
+[Page 7] coding standards and user-centered
+[Page 7] implementation practices.
+[Page 7] Development Tools
+[Page 7] Streamlined workflows supporting
+[Page 7] collaboration, version management, and
+[Page 7] efficient project delivery.
+[Page 7] UI Frameworks
+[Page 7] Reusable components and structured
+[Page 7] systems designed to maintain consistency
+[Page 7] and scalability across projects.
+[Page 8] PROJECT SHOWCASE
+[Page 8] A collection of selected projects demonstrating expertise in responsive
+[Page 8] design, interactive interfaces, and performance-focused development.
+[Page 8] PAGE
+[Page 8] 8
+[Page 8] hello@reallygreatsite.com
+[Page 8] Research & Planning
+[Page 9] PAGE
+[Page 9] 9
+[Page 9] hello@reallygreatsite.com
+[Page 9] PROFESSIONAL
+[Page 9] ACHIEVEMENTS
+[Page 9] Key accomplishments reflecting technical growth,
+[Page 9] successful project delivery, and continuous
+[Page 9] commitment to development excellence.
+[Page 9] 50+
+[Page 9] Projects Completed
+[Page 9] 20+
+[Page 9] Satisfied Clients
+[Page 9] 98%
+[Page 9] Project Delivery Rate
+[Page 10] hello@reallygreatsite.com
+[Page 10] PAGE
+[Page 10] 10
+[Page 10] LET'S BUILD
+[Page 10] SOMETHING GREAT
+[Page 10] Available for freelance projects, long-term collaborations, and
+[Page 10] opportunities to create meaningful digital experiences together.
