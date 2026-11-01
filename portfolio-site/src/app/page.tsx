@@ -8,49 +8,18 @@ import {
   type MouseEvent as ReactMouseEvent,
   type ReactNode,
 } from "react";
-import { ContactForm } from "@/components/contact-form";
-
-const ACHIEVEMENTS = [
-  {
-    countTo: 5,
-    suffix: "+",
-    unit: " Years",
-    label: "5+ Years",
-    text: "Frontend project experience in production environments",
-    icon: (
-      <>
-        <circle cx="12" cy="12" r="9" />
-        <path d="M12 7v5l3 2" />
-      </>
-    ),
-  },
-  {
-    countTo: 3,
-    suffix: "",
-    unit: " Domains",
-    label: "3 Domains",
-    text: "Healthcare, Retail, and AI/ML data operations",
-    icon: (
-      <>
-        <path d="m12 3 9 5-9 5-9-5 9-5Z" />
-        <path d="m3 12 9 5 9-5M3 16.5l9 5 9-5" />
-      </>
-    ),
-  },
-  {
-    countTo: null,
-    suffix: "",
-    unit: "",
-    label: "WCAG 2.1/2.2",
-    text: "Accessibility-first engineering with global product readiness",
-    icon: (
-      <>
-        <path d="M12 3 4 6v6c0 4.5 3.2 8 8 9 4.8-1 8-4.5 8-9V6l-8-3Z" />
-        <path d="m9 12 2 2 4-4" />
-      </>
-    ),
-  },
-];
+import { ContactForm } from "@mfe/contact";
+import { HERO_STATS, NAV_ITEMS } from "@mfe/home";
+import {
+  PROFILE_PROJECTS,
+  PROFILE_SKILLS,
+  PROFILE_SUMMARY_POINTS,
+} from "@mfe/profile";
+import {
+  EXPERIENCE_ACHIEVEMENTS,
+  EXPERIENCE_STACK_GROUPS,
+  EXPERIENCE_WORKFLOW,
+} from "@mfe/experience";
 
 function trackSpotlight(event: ReactMouseEvent<HTMLElement>) {
   const rect = event.currentTarget.getBoundingClientRect();
@@ -251,76 +220,6 @@ function StatCard({
   );
 }
 
-const HERO_STATS = [
-  { value: "5+", label: "Years in frontend" },
-  { value: "19", label: "Apps in one Nx platform" },
-  { value: "42", label: "Countries served" },
-];
-
-const STACK_GROUPS = [
-  {
-    title: "Architecture",
-    blurb: "How I structure large-scale apps",
-    tools: [
-      "Micro-frontends",
-      "Module Federation",
-      "Nx monorepo",
-      "Atomic Design",
-      "Design systems",
-      "Storybook",
-    ],
-    icon: (
-      <>
-        <rect x="8" y="8" width="48" height="38" rx="4" />
-        <path d="M8 18h48M26 51h12m-10-5v5m8-5v5" />
-        <path d="M15 26h12v14H15zm18 0h16m-16 7h16m-16 7h16" />
-      </>
-    ),
-  },
-  {
-    title: "Engineering Stack",
-    blurb: "What I build products with",
-    tools: [
-      "React",
-      "TypeScript",
-      "Redux",
-      "TanStack Query",
-      "Node.js",
-      "REST",
-      "GraphQL",
-      "Vite",
-      "Webpack",
-    ],
-    icon: (
-      <>
-        <rect x="8" y="8" width="48" height="48" rx="4" />
-        <path d="M8 19h48" />
-        <path d="m25 31-8 8 8 8m14-16 8 8-8 8m-4-18-6 20" />
-      </>
-    ),
-  },
-  {
-    title: "Quality & DevOps",
-    blurb: "How I ship with confidence",
-    tools: [
-      "Jest",
-      "React Testing Library",
-      "Playwright",
-      "Cypress",
-      "SonarQube",
-      "Azure DevOps",
-      "Docker",
-      "AI-assisted dev",
-    ],
-    icon: (
-      <>
-        <circle cx="32" cy="32" r="24" />
-        <path d="m21 33 8 8 15-17" />
-      </>
-    ),
-  },
-];
-
 export default function Home() {
   const [activeSection, setActiveSection] = useState("home");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -443,68 +342,6 @@ export default function Home() {
     };
   }, []);
 
-  const navItems = [
-    { id: "home", label: "Home" },
-    { id: "profile", label: "Profile" },
-    { id: "experience", label: "Experience" },
-    { id: "contact", label: "Contact" },
-  ];
-
-  const skills = [
-    { label: "Front-End Development", value: 95 },
-    { label: "UI Implementation", value: 88 },
-    { label: "Responsive Design", value: 85 },
-    { label: "Performance Optimization", value: 80 },
-  ];
-
-  const workflow = [
-    {
-      id: "01",
-      title: "Research & Planning",
-      text: "Defining architecture, analyzing users, and mapping technical requirements.",
-    },
-    {
-      id: "02",
-      title: "UI Implementation",
-      text: "Translating design specs into responsive, reusable components.",
-    },
-    {
-      id: "03",
-      title: "Testing & Optimization",
-      text: "Debugging, cross-browser audits, and performance fine-tuning.",
-    },
-  ];
-
-  const projects = [
-    {
-      name: "react-impact-portfolio",
-      url: "https://github.com/suranjana-tech/react-impact-portfolio",
-      description: "Portfolio showcasing my frontend work and experience.",
-      language: "CSS",
-      languageColor: "#663399",
-    },
-    {
-      name: "Auth-project",
-      url: "https://github.com/suranjana-tech/Auth-project",
-      description: "A Next.js application with user authentication.",
-      language: "JavaScript",
-      languageColor: "#f1e05a",
-    },
-    {
-      name: "Spotify-clone",
-      url: "https://github.com/suranjana-tech/Spotify-clone",
-      description: "A music streaming interface inspired by Spotify.",
-      language: "JavaScript",
-      languageColor: "#f1e05a",
-    },
-  ];
-
-  const profileSummaryPoints = [
-    "5+ years of frontend engineering across product and enterprise teams.",
-    "Strong expertise in React, TypeScript, Nx, and Module Federation.",
-    "Hands-on with accessibility, design systems, and performance tuning.",
-  ];
-
   return (
     <main
       className={`portfolio slide-mode ${
@@ -565,7 +402,7 @@ export default function Home() {
             id="portfolio-menu"
             className={`${isMenuOpen ? "flex" : "hidden"} w-full flex-col gap-1 border-t border-[var(--line)] pt-3 md:flex md:w-auto md:flex-row md:items-center md:gap-2 md:border-0 md:pt-0`}
           >
-            {navItems.map((item) => (
+            {NAV_ITEMS.map((item) => (
               <li key={item.id}>
                 <button
                   type="button"
@@ -759,7 +596,7 @@ export default function Home() {
                 </p>
                 <h3 className="accent-title">Professional Summary</h3>
                 <ul className="summary-list">
-                  {profileSummaryPoints.map((point, index) => (
+                  {PROFILE_SUMMARY_POINTS.map((point, index) => (
                     <li
                       key={point}
                       className={`transform-gpu transition-[transform,opacity,filter] duration-800 ease-out motion-safe:will-change-transform motion-reduce:transition-none ${
@@ -800,7 +637,7 @@ export default function Home() {
               </div>
               <div className="skill-card">
                 <h3 className="accent-title">Skill Highlights</h3>
-                {skills.map((skill, index) => (
+                {PROFILE_SKILLS.map((skill, index) => (
                   <div
                     key={skill.label}
                     className={`skill-row transition-all duration-700 ease-out motion-reduce:transition-none ${
@@ -838,7 +675,7 @@ export default function Home() {
                 data-animation-key="projects"
                 className="projects-grid"
               >
-                {projects.map((project, index) => (
+                {PROFILE_PROJECTS.map((project, index) => (
                   <div
                     key={project.name}
                     className={`transform-gpu transition-[transform,opacity] duration-700 ease-out motion-reduce:transition-none ${
@@ -995,7 +832,7 @@ export default function Home() {
                 data-animation-key="workflow"
                 className="workflow-grid"
               >
-                {workflow.map((step, index) => (
+                {EXPERIENCE_WORKFLOW.map((step, index) => (
                   <div
                     key={step.id}
                     className={`relative transform-gpu transition-[transform,opacity] duration-700 ease-out motion-reduce:transition-none ${
@@ -1005,7 +842,7 @@ export default function Home() {
                     }`}
                     style={{ transitionDelay: `${index * 140}ms` }}
                   >
-                    {index < workflow.length - 1 && (
+                    {index < EXPERIENCE_WORKFLOW.length - 1 && (
                       <span
                         aria-hidden="true"
                         className={`absolute top-full left-[calc(2.75rem-1px)] h-5 w-0.5 origin-top bg-gradient-to-b from-[var(--gold)] to-[var(--gold)]/20 transition-transform duration-700 ease-out motion-reduce:transition-none ${
@@ -1114,7 +951,7 @@ export default function Home() {
                 data-animation-key="stack"
                 className="stack-grid"
               >
-                {STACK_GROUPS.map((group, groupIndex) => (
+                {EXPERIENCE_STACK_GROUPS.map((group, groupIndex) => (
                   <div
                     key={group.title}
                     className={`transform-gpu transition-[transform,opacity] duration-700 ease-out motion-reduce:transition-none ${
@@ -1201,7 +1038,7 @@ export default function Home() {
                 data-animation-key="achievements"
                 className="achievements-grid"
               >
-                {ACHIEVEMENTS.map((item, index) => (
+                {EXPERIENCE_ACHIEVEMENTS.map((item, index) => (
                   <div
                     key={item.label}
                     className={`transform-gpu transition-[transform,opacity] duration-700 ease-out motion-reduce:transition-none ${

@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+
+.nx/cache
+.nx/workspace-data
+.nx/migrate-runs
+
+# Next.js
+.next
+out

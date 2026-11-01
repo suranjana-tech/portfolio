@@ -20,6 +20,30 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Nx + Phase 1 microfrontend foundation
+
+This project now has Nx integrated for monorepo-scale task orchestration and caching.
+
+- `npm run dev` → runs `nx next:dev`
+- `npm run build` → runs `nx next:build`
+- `npm run start` → runs `nx next:start`
+
+Phase 1 introduces a **microfrontend-ready workspace layout** without changing runtime behavior:
+
+- `libs/mfe/contact` – contact slice (currently used by the app)
+- `libs/mfe/profile` – profile slice placeholder
+- `libs/mfe/experience` – experience slice placeholder
+- `libs/shared/ui` – shared UI placeholder
+
+The portfolio app remains a single deployed Next.js app, but feature code can now be split into
+independent MFE-aligned libraries incrementally.
+
+Phase 2 continues this split by moving Home/Profile/Experience content models into dedicated libs:
+
+- `libs/mfe/home/src/navigation.ts`
+- `libs/mfe/profile/src/data.ts`
+- `libs/mfe/experience/src/data.tsx`
+
 ## Portfolio navigation
 
 The Tailwind-styled header stays sticky while scrolling and switches between
@@ -113,7 +137,7 @@ is needed.
 
 Visitors can also pick a topic (Job opportunity, Collaboration, Just saying hi). It is
 added to the top of the Message field as `Topic: …`, so you can spot job opportunities
-quickly. Edit the topics in `TOPICS` in both `src/components/contact-form.tsx` and
+quickly. Edit the topics in `TOPICS` in both `libs/mfe/contact/src/contact-form.tsx` and
 `src/app/api/contact/route.ts`.
 
 **Behaviour to know about**
@@ -162,3 +186,38 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## CI/CD with GitHub Actions + Nx
+
+This repository now includes GitHub Actions workflows:
+
+- `.github/workflows/ci.yml`
+  - Triggers on pull requests to `main` and pushes to `main`.
+  - Runs Nx affected checks: `lint` and `next:build`.
+  - Uses `nrwl/nx-set-shas` to compute the correct base/head SHAs.
+
+- `.github/workflows/cd-vercel.yml`
+  - Triggers on pushes to `main`.
+  - Builds the app and deploys to Vercel production.
+
+### Required repository secrets
+
+Add these secrets in GitHub: **Settings → Secrets and variables → Actions**.
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+
+Optional for faster CI across runs/machines:
+
+- `NX_CLOUD_ACCESS_TOKEN`
+
+### One-time Vercel link step
+
+If you do not already have `VERCEL_ORG_ID` and `VERCEL_PROJECT_ID`, run locally once:
+
+```bash
+npx vercel link
+```
+
+Then copy values from `.vercel/project.json` into your GitHub secrets.

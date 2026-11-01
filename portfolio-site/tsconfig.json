@@ -19,7 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@mfe/contact": ["./libs/mfe/contact/src/index.ts"],
+      "@mfe/*": ["./libs/mfe/*/src/index.ts"],
+      "@shared/ui": ["./libs/shared/ui/src/index.ts"]
     }
   },
   "include": [
